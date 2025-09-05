@@ -11,7 +11,6 @@ from torchvision import transforms
 from torchmetrics import Accuracy, JaccardIndex
 from tqdm import tqdm
 from einops import repeat
-from timm.layers import DropPath
 from mamba_ssm.ops.selective_scan_interface import selective_scan_fn
 
 cv2.setNumThreads(0)

@@ -138,6 +138,7 @@ class SSCA(nn.Module):
         return D
 
     def forward_core_channel(self, xc: torch.Tensor):
+        self.selective_scan = selective_scan_fn
         B, C, H, W = xc.shape
         avg_pool_feats = self.gap(xc)
         max_pool_feats = self.gmp(xc)

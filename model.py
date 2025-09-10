@@ -243,9 +243,9 @@ class ADAC(nn.Module):
         residual = x
         x = self.conv_in(x)
         p1, p2 = torch.chunk(x, 2, dim=1)
-        p1_a, p1_b = self.normal_branches(p1)
+        p1_a, p1_b = self.normal(p1)
         p1 = p1_a + p1_b
-        p2_a, p2_b = self.dilated_branches(p2)
+        p2_a, p2_b = self.dilated(p2)
         p2 = p2_a + p2_b
         x = self.fuse([p1, p2])
         x = self.conv_out(x)

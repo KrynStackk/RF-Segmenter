@@ -10,12 +10,6 @@ If there is any error or need to be discussed, please email to [Truong-Thinh Le]
 
 ## Architecture
 ![Architecture of HyVSSNet](architecture.png)
-
-## ADAC Module
 ![ADAC Module](ADAC.png)
-
-## SSCA Module
 ![SSCA Module](SSCA.png)
-
-## MSAF Module
 ![MSAF Module](MSAF.png)

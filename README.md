@@ -9,17 +9,13 @@ The dataset can be downloaded on [Kaggle](https://www.kaggle.com/datasets/letruo
 If there is any error or need to be discussed, please email to [Truong-Thinh Le](https://github.com/KrynStackk) via [letruongthinh1712@gmail.com](mailto:letruongthinh1712@gmail.com).
 
 ## Architecture
-
 ![Architecture of HyVSSNet](architecture.png)
 
-## MS AF Module
-
-![MSAF Module](MSAF.png)
+## ADAC Module
+![ADAC Module](ADAC.png)
 
 ## SSCA Module
-
 ![SSCA Module](SSCA.png)
 
-## ADAC Module
-
-![ADAC Module](ADAC.png)
+## MSAF Module
+![MSAF Module](MSAF.png)
